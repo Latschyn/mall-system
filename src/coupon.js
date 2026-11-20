@@ -1,4 +1,6 @@
-﻿function calculateDiscount(price, discount) {
+// Coupon calculation module
+
+function calculateDiscount(price, discount) {
     if (price < 0 || discount < 0 || discount > 100) {
         return "Invalid input";
     }
