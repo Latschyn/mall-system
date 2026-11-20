@@ -12,3 +12,6 @@ function calculateDiscount(price, discount) {
 console.log(calculateDiscount(200, 20));
 
 module.exports = { calculateDiscount };
+
+// Read test configuration from an environment variable
+const TEST_API_KEY = process.env.TEST_API_KEY;
