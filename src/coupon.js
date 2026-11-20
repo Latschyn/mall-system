@@ -10,3 +10,5 @@ function calculateDiscount(price, discount) {
 }
 
 console.log(calculateDiscount(200, 20));
+
+module.exports = { calculateDiscount };
